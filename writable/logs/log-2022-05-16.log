@@ -1,0 +1,6 @@
+CRITICAL - 2022-05-16 15:25:08 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\xampp\htdocs\sitemacode\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl')
+#1 C:\xampp\htdocs\sitemacode\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\sitemacode\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\sitemacode\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
